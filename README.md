@@ -12,9 +12,8 @@ az group create --name k8sDemo --location eastus
 
 az aks create -g k8sDemo -n AKSDemoCluster --enable-managed-identity --node-count 1 --enable-addons monitoring --generate-ssh-keys
 
-## 3- To connect to the cluster, you need the kubectl client
+## 3- To connect to the cluster, you need the kubectl client that you can install with this command:
 
-that you can install with this command:
 az aks install-cli
 
 ## 4-Connect to the cluster
