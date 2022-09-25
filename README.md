@@ -64,7 +64,7 @@ az acr login --name k8sdemoacrintelcom
 
 az acr build --image "k8s-demo:v2" --registry k8sdemoacrintelcom .
 
-Deploy to AKS
+# Deploy to AKS
 
 <p>
 The follwing command will "attach" ACR and AKS together so the second call pull
@@ -73,7 +73,7 @@ a AD service principal to the cluster and using a managed identity
 </p>
 az aks update -n AKSDemoCluster -g k8sDemo --attach-acr k8sdemoacrintelcom
 
-1. Create an ingress controller
+## 1. Create an ingress controller
    This controler will serve as entry point to the app
    and works in conjunction with the Ingress object to
    allow the api calls.
@@ -81,3 +81,9 @@ az aks update -n AKSDemoCluster -g k8sDemo --attach-acr k8sdemoacrintelcom
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.1/deploy/static/provider/cloud/deploy.yaml
 
 It's possible to use HELM for this as well
+
+## 2. Execute sequencially each one of the files included in the folder k8s deploy in the following order:
+### a) Create Ingress
+### b) Create service
+### c) Create deployment
+
