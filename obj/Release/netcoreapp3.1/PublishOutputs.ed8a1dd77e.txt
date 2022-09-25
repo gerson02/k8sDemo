@@ -1,0 +1,7 @@
+C:\Users\perez\Intelcom\kubernetes-demo\bin\Release\netcoreapp3.1\publish\kubernetes-demo.exe
+C:\Users\perez\Intelcom\kubernetes-demo\bin\Release\netcoreapp3.1\publish\appsettings.Development.json
+C:\Users\perez\Intelcom\kubernetes-demo\bin\Release\netcoreapp3.1\publish\appsettings.json
+C:\Users\perez\Intelcom\kubernetes-demo\bin\Release\netcoreapp3.1\publish\kubernetes-demo.dll
+C:\Users\perez\Intelcom\kubernetes-demo\bin\Release\netcoreapp3.1\publish\kubernetes-demo.deps.json
+C:\Users\perez\Intelcom\kubernetes-demo\bin\Release\netcoreapp3.1\publish\kubernetes-demo.runtimeconfig.json
+C:\Users\perez\Intelcom\kubernetes-demo\bin\Release\netcoreapp3.1\publish\kubernetes-demo.pdb

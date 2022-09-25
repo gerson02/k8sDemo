@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = kubernetes_demo
+build_property.ProjectDir = C:\Users\perez\Intelcom\kubernetes-demo\
