@@ -82,7 +82,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 
 #### Note: It's possible to use HELM for this as well
 
-## 2. Execute sequencially each one of the files included in the folder k8s deploy in the following order:
+## 2. Execute sequencially each one of the files included in the folder "k8sdeploy" in the following order:
 ### a) Create Ingress
 ### b) Create service
 ### c) Create deployment
