@@ -73,6 +73,7 @@ an AD service principal to the cluster and using a managed identity
 az aks update -n AKSDemoCluster -g k8sDemo --attach-acr k8sdemoacrintelcom
 
 ## 1. Create an ingress controller
+
    <p>This controller will serve as entry point to the app
    and works in conjunction with the Ingress object to
    allow the api calls.
@@ -86,4 +87,12 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 ### a) Create Ingress
 ### b) Create service
 ### c) Create deployment
+
+## 3. With the public address created by the Ingress Controller (Load Balancer), test the App.
+
+# Delete Azure Resources
+
+<p>To prevent unwanted charges, remove all created resources by removing the resource grouo</p>
+
+az group delete -g k8sDemo
 
