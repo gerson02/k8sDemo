@@ -60,8 +60,7 @@ I used the Azure portal for this and name the ACR k8sdemoacrintelcom
 
 az acr login --name k8sdemoacrintelcom
 
-# 10- Push the image using ACR (in this case using ACR Tasks. It's possible to use
-docker as well.
+# 10- Push the image using ACR (in this case using ACR Tasks. It's possible to use docker as well.
 
 az acr build --image "k8s-demo:v2" --registry k8sdemoacrintelcom .
 
