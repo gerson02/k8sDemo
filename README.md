@@ -58,9 +58,9 @@ I used the Azure portal for this and name the ACR k8sdemoacrintelcom
 
 ## 9- Authenticate to ACR
 
-az acr login --name k8sdemoacrintelcom
+<code> az acr login --name k8sdemoacrintelcom </code>
 
-## 10- Push the image using ACR (in this case using ACR Tasks. It's possible to use docker as well.
+## 10- Push the image using ACR in this case using ACR Tasks. It's possible to use docker as well.
 
 az acr build --image "k8s-demo:v2" --registry k8sdemoacrintelcom .
 
@@ -69,15 +69,16 @@ az acr build --image "k8s-demo:v2" --registry k8sdemoacrintelcom .
 <p>
 The follwing command will "attach" ACR and AKS together so the second call pull
 images from the first. This could be also done at cluster creation time attaching
-a AD service principal to the cluster and using a managed identity
+an AD service principal to the cluster and using a managed identity
 </p>
 az aks update -n AKSDemoCluster -g k8sDemo --attach-acr k8sdemoacrintelcom
 
 ## 1. Create an ingress controller
-   This controler will serve as entry point to the app
+   <p>This controler will serve as entry point to the app
    and works in conjunction with the Ingress object to
    allow the api calls.
-
+   </p>
+   
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.1/deploy/static/provider/cloud/deploy.yaml
 
 It's possible to use HELM for this as well
