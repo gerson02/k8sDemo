@@ -6,7 +6,7 @@ or the Azure Portal
 
 ## 1. Create the resource group
 
-az group create --name k8sDemo --location eastus
+<code> az group create --name k8sDemo --location eastus </code>
 
 ## 2. Create the cluster
 
