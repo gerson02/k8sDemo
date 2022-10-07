@@ -3,6 +3,8 @@
 
 <img src="https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg" />
 
+<img src="https://www.zdnet.com/a/img/resize/e6736e35f09bddeead7a9ad74233ce564ce59017/2017/05/08/af178c5a-64dd-4900-8447-3abd739757e3/docker-vm-container.png?auto=webp&width=1200" />
+
 To do this you need to install the Azure CLI
 You could also other ways like Azure PowerShell Scripts
 or the Azure Portal
