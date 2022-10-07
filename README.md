@@ -1,3 +1,5 @@
+# Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications
+
 <img src="https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg" />
 
 To do this you need to install the Azure CLI
