@@ -102,7 +102,7 @@ an AD service principal to the cluster and using a managed identity
 
 # Delete Azure Resources
 
-<p>To prevent unwanted charges, remove all created resources by removing the resource grouo</p>
+<p>To prevent unwanted charges, remove all created resources by removing the resource group</p>
 
 <code> az group delete -g k8sDemo </code>
 
